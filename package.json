@@ -1,0 +1,19 @@
+{
+  "name": "dsh-ptc-delegation",
+  "version": "0.1.0",
+  "description": "DSH preset that re-enables workflow delegation inside PTC sessions (DeepSeek Harness 0.2.2-rc.5 workaround)",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "dsh-ptc-delegation": "install.mjs"
+  },
+  "scripts": {
+    "install": "node install.mjs",
+    "verify": "node install.mjs --verify",
+    "remove": "node install.mjs --remove"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
