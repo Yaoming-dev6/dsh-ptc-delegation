@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" role="img" aria-label="One task fanning out to three subagents">
+  <path d="M14.6 17.1c4-.9 6.4-3.7 8.4-6.1" stroke="#7F98C4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M14.4 18h8.3" stroke="#7F98C4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M14.6 18.9c4 .9 6.4 3.7 8.4 6.1" stroke="#7F98C4" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="10.6" cy="18" r="4.3" fill="#4C7CF3"/>
+  <circle cx="26.4" cy="9.6" r="3" fill="#6F94D8"/>
+  <circle cx="26.4" cy="18" r="3" fill="#6F94D8"/>
+  <circle cx="26.4" cy="26.4" r="3" fill="#6F94D8"/>
+</svg>

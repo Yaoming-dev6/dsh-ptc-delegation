@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PTC delegation mode",
+    "description": "Adds a \"PTC delegation mode\" preset: PTC sessions can start subagents through workflow (agent(), parallel(), pipeline()) and get the plan-mode group the shipped ptc preset already has. Requires DSH 0.2.2-rc.5 and danger-full-access for workflow runs. It does not restore the missing subagent tool, and it changes no other session."
+  }
+}

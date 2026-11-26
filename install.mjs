@@ -25,7 +25,7 @@ import { homedir } from 'node:os'
 import { fileURLToPath } from 'node:url'
 
 const HERE = dirname(fileURLToPath(import.meta.url))
-const PRESET_FILE = join(HERE, 'preset', 'ptc-workflow.patch.yml')
+const PRESET_FILE = join(HERE, 'cordis.patch.yml')
 const PKG = JSON.parse(readFileSync(join(HERE, 'package.json'), 'utf8'))
 const START = '# >>> dsh-ptc-delegation: PTC 委派模式 (ptc-workflow) >>>'
 const END = '# <<< dsh-ptc-delegation <<<'

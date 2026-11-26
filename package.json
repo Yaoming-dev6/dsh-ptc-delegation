@@ -1,19 +1,38 @@
 {
   "name": "dsh-ptc-delegation",
-  "version": "0.1.0",
-  "description": "DSH preset that re-enables workflow delegation inside PTC sessions (DeepSeek Harness 0.2.2-rc.5 workaround)",
+  "version": "0.2.0",
+  "description": "DeepSeek Harness bundle: a PTC delegation preset that enables workflow-based subagents inside PTC sessions (0.2.2-rc.5).",
+  "license": "MIT",
   "type": "module",
-  "private": true,
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs",
+    "install.mjs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
   "bin": {
     "dsh-ptc-delegation": "install.mjs"
   },
   "scripts": {
-    "install": "node install.mjs",
     "verify": "node install.mjs --verify",
     "remove": "node install.mjs --remove"
   },
-  "license": "MIT",
   "engines": {
-    "node": ">=18"
+    "node": ">=22.19.0",
+    "dsh": ">=0.2.2-rc.5 <0.2.3-0"
   }
 }

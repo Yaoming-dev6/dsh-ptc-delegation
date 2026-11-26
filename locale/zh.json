@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PTC 委派模式",
+    "description": "新增「PTC 委派模式」预设：PTC 会话可以用 workflow（agent() / parallel() / pipeline()）起子智能体并行干活，并带上内置 ptc 预设本来就有的计划模式组。需要 DSH 0.2.2-rc.5，workflow 运行需要 danger-full-access。它不修复缺失的 subagent 工具，也不影响其它会话。"
+  }
+}
